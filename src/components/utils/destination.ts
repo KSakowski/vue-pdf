@@ -2,7 +2,7 @@
  * Written by Jason Harwig as part of PDFjs React Outline Viewer
  * Source: https://codesandbox.io/s/rp18w
  */
-import type { PDFDocumentProxy, RefProxy } from 'pdfjs-dist/types/src/display/api'
+import type { PDFDocumentProxy, RefProxy } from '../../../pdfjs-dist/types/src/display/api'
 import type { Fit, FitB, FitBH, FitBV, FitH, FitR, FitV, PDFLocation, XYZ } from '../types'
 
 function isRefProxy(obj: unknown): obj is RefProxy {

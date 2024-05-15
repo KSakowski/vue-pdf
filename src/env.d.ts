@@ -16,5 +16,5 @@ declare module "*?worker&url" {
 }
 
 declare module "pdfjs-dist/build/pdf" {
-  export * from 'pdfjs-dist'
+  export * from '../pdfjs-dist'
 }

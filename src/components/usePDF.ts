@@ -1,8 +1,8 @@
-import * as PDFJS from 'pdfjs-dist'
-import PDFWorker from 'pdfjs-dist/build/pdf.worker.min?url'
+import * as PDFJS from '../../pdfjs-dist'
+import PDFWorker from '../../pdfjs-dist/build/pdf.worker.min?url'
 import { isRef, shallowRef, watch } from 'vue'
 
-import type { PDFDocumentLoadingTask, PDFDocumentProxy } from 'pdfjs-dist'
+import type { PDFDocumentLoadingTask, PDFDocumentProxy } from '../../pdfjs-dist'
 import type { Ref } from 'vue'
 import type { OnPasswordCallback, PDFDestination, PDFInfo, PDFOptions, PDFSrc } from './types'
 import { getDestinationArray, getDestinationRef, getLocation, isSpecLike } from './utils/destination'

@@ -1,4 +1,4 @@
-import type { IPDFLinkService } from 'pdfjs-dist/types/web/interfaces'
+import type { IPDFLinkService } from '../../../pdfjs-dist/types/web/interfaces'
 
 class SimpleLinkService implements IPDFLinkService {
   externalLinkEnabled: boolean

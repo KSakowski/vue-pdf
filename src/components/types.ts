@@ -1,12 +1,12 @@
-import type { PageViewport } from 'pdfjs-dist'
+import type { PageViewport } from '../../pdfjs-dist'
 import type {
   DocumentInitParameters,
   OnProgressParameters,
   PDFDataRangeTransport,
   TextContent,
   TypedArray,
-} from 'pdfjs-dist/types/src/display/api'
-import type { Metadata } from 'pdfjs-dist/types/src/display/metadata'
+} from '../../pdfjs-dist/types/src/display/api'
+import type { Metadata } from '../../pdfjs-dist/types/src/display/metadata'
 
 export interface Match {
   start: {

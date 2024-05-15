@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import * as PDFJS from 'pdfjs-dist'
+import * as PDFJS from '../../../pdfjs-dist'
 import { onMounted, ref, watch } from 'vue'
 
-import type { PDFPageProxy, PageViewport } from 'pdfjs-dist'
-import type { TextLayerRenderParameters } from 'pdfjs-dist/types/src/display/text_layer'
+import type { PDFPageProxy, PageViewport } from '../../../pdfjs-dist'
+import type { TextLayerRenderParameters } from '../../../pdfjs-dist/types/src/display/text_layer'
 import type { HighlightEventPayload, HighlightOptions, TextLayerLoadedEventPayload } from '../types'
 import { findMatches, highlightMatches, resetDivs } from '../utils/highlight'
 

@@ -1,9 +1,9 @@
 <!-- eslint-disable no-case-declarations -->
 <script setup lang="ts">
-import * as PDFJS from 'pdfjs-dist'
+import * as PDFJS from '../../pdfjs-dist'
 import { computed, onMounted, ref, toRaw, watch } from 'vue'
 
-import 'pdfjs-dist/web/pdf_viewer.css'
+import '../../pdfjs-dist/web/pdf_viewer.css'
 
 import type { PDFDocumentLoadingTask, PDFPageProxy, PageViewport, RenderTask } from 'pdfjs-dist'
 import type { GetViewportParameters, PDFDocumentProxy, RenderParameters } from 'pdfjs-dist/types/src/display/api'

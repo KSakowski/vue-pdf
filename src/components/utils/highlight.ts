@@ -1,5 +1,5 @@
-import type { TextItem } from 'pdfjs-dist/types/src/display/api'
-import type { TextContent } from 'pdfjs-dist/types/src/display/text_layer'
+import type { TextItem } from '../../../pdfjs-dist/types/src/display/api'
+import type { TextContent } from '../../../pdfjs-dist/types/src/display/text_layer'
 import type { HighlightOptions, Match } from '../types'
 
 function searchQuery(textContent: TextContent, query: string, options: HighlightOptions) {

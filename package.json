@@ -50,9 +50,6 @@
   "peerDependencies": {
     "vue": "^3.2.33"
   },
-  "dependencies": {
-    "pdfjs-dist": "3.11.174"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.5",
     "@babel/core": "^7.21.8",
